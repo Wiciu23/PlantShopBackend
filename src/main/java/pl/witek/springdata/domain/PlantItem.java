@@ -20,6 +20,7 @@ public class PlantItem {
         this.name = name;
         this.quantity = quantity;
         this.category = category;
+        this.prize = prize;
     }
 
     public String getId() {

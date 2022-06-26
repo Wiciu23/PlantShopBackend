@@ -30,7 +30,7 @@ public class PlantController {
         return plantService.save(toDo);
     }
 
-    @PutMapping("/{id}")
+    @PutMapping
     public PlantItem update(@RequestBody PlantItem toDo){
         return plantService.save(toDo);
     }
